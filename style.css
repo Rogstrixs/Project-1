@@ -10,6 +10,7 @@
   
   body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url('anime1.jpg');
     background-color: #f5f5f5; /* light gray background */
   }
   
@@ -78,7 +79,7 @@
   /* Anime-themed Styles */
   
   .anime-bg {
-    background-image: url('anime1.jpg'); /* add an anime-inspired pattern */
+    background-image: url(''); /* add an anime-inspired pattern */
     background-size: 200px 200px;
     background-position: center;
   }
