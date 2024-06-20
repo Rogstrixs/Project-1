@@ -185,7 +185,7 @@ h2 {
 .anime-button:hover::after,.manhua-button:hover::after {
     opacity: 0.6;
 }
-*/
+*/ /*
 .neon-button {
     position: relative;
     z-index: 1;
@@ -224,7 +224,7 @@ h2 {
 
 .neon-button:hover::after {
     opacity: 0.6;
-}
+}*/
 
 .glow-on-hover {
     width: 220px;
