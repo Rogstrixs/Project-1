@@ -106,22 +106,41 @@
   }
   
   .anime-button {
-    background-color: #b300ff; /* pink button color */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    color: #000000;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: block;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    background: var(--purple-900);
+    border: 3px solid;
+    border-color: var(--purple-400);
+    border-radius: 0.75rem;
+    color: var(--purple-300);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    transition: 250ms ease-in-out;
+    transition-property: all;
   }
   
-  .anime-button:hover {
-    background-color: #ff00ae; /* hover effect */
+  .anime-button:hover,
+  .anime-button:focus {
+    color: var(--purple-200);
+    background-color: var(--purple-800);
+    transform: scale(1.1);
+  }
+
+  .anime-button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.6;
+    border-radius: inherit;
+    box-shadow: 0 0 1em 0.5em var(--purple-300);
+    transition: 250ms ease-in-out;
+    transition-property: opacity;
+  }
+  
+  .anime-button:hover::after,
+  .anime-button:focus::after {
+    opacity: 0.6;
   }
 
   .manhua-color {
