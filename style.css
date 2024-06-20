@@ -86,10 +86,26 @@ main.container {
     text-align: left; /* align text to the left */
 }
   
+.A-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #07fe17; /* Dark gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
 section {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #0125f0; /* Dark gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.M-section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #d401f0; /* Dark gray background */
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
