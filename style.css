@@ -126,6 +126,10 @@
     transform: scale(1.1);
   }
 
+  .text {
+    filter: drop-shadow(0 0 1px currentcolor);
+  }
+
   .anime-button:after {
     content: "";
     position: absolute;
@@ -148,21 +152,41 @@
   }
 
   .manhua-button {
-    background-color: #b300ff; /* pink button color */
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
-    display: block;
-    width: fit-content;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
+    z-index: 1;
+    background: var(--purple-900);
+    border: 3px solid;
+    border-color: var(--purple-400);
+    border-radius: 0.75rem;
+    color: var(--purple-300);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    transition: 250ms ease-in-out;
+    transition-property: all;
   }
   
-  .manhua-button:hover {
-    background-color: #ff00ae; /* hover effect */
+  .manhua-button:hover,
+  .manhua-button:focus {
+    color: var(--purple-200);
+    background-color: var(--purple-800);
+    transform: scale(1.1);
+ }
+
+  .manhua-button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.6;
+    border-radius: inherit;
+    box-shadow: 0 0 1em 0.5em var(--purple-300);
+    transition: 250ms ease-in-out;
+    transition-property: opacity;
+  }
+  
+  .manhua-button:hover::after,
+  .manhua-button:focus::after {
+    opacity: 0.6;
   }
   
   /* Footer Styles */
@@ -175,4 +199,78 @@
     width: 100%;
     position: relative;
     bottom: 0;
+  }
+
+  .anime-button,.manhua-button {
+    position: relative;
+    z-index: 1;
+    background: var(--purple-900);
+    border: 3px solid;
+    border-color: var(--purple-400);
+    border-radius: 0.75rem;
+    color: var(--purple-300);
+    padding: 0.75rem 1rem;
+    text-decoration: none;
+    transition: 250ms ease-in-out;
+    transition-property: all;
+  }
+  
+  .anime-button:hover,.manhua-button:hover {
+    color: var(--purple-200);
+    background-color: var(--purple-800);
+    transform: scale(1.1);
+  }
+  
+  .anime-button:after,.manhua-button:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.6;
+    border-radius: inherit;
+    box-shadow: 0 0 1em 0.5em var(--purple-300);
+    transition: 250ms ease-in-out;
+    transition-property: opacity;
+  }
+  
+  .anime-button:hover::after,.manhua-button:hover::after {
+    opacity: 0.6;
+  }
+  
+  .neon-button {
+    position: relative;
+    z-index: 1;
+    background: linear-gradient(to bottom, #ff69b4, #ff69b4);
+    background-size: 100% 200px;
+    background-position: 0% 100%;
+    transition: background-position 0.5s ease-in-out;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .neon-button:hover {
+    background-position: 100% 100%;
+  }
+  
+  .neon-button::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    opacity: 0.6;
+    border-radius: inherit;
+    box-shadow: 0 0 1em 0.5em #ff69b4;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .neon-button:hover::after {
+    opacity: 0.6;
   }
