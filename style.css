@@ -1,56 +1,109 @@
-/* Reset default styles */
+/* style.css */
+
+/* Global Styles */
+
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 10px;
-}
-
-nav ul li a {
-    color: #fff;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f5f5f5; /* light gray background */
+  }
+  
+  h1, h2, h3 {
+    font-weight: bold;
+    color: #333; /* dark gray text */
+  }
+  
+  a {
     text-decoration: none;
-    padding: 0.5rem 1rem;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-}
-
-.container {
-    max-width: 800px;
-    margin: auto;
+    color: #00698f; /* blue link color */
+  }
+  
+  a:hover {
+    color: #0099ff; /* hover effect */
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333; /* dark gray header */
     padding: 20px;
-}
-
-footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
+  }
+  
+  header h1 {
+    color: #fff; /* white text */
+    font-size: 24px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff; /* white link color */
+  }
+  
+  /* Main Styles */
+  
+  main.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff; /* white background */
+    border: 1px solid #ddd; /* light gray border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Anime-themed Styles */
+  
+  .anime-bg {
+    background-image: url('anime-pattern.png'); /* add an anime-inspired pattern */
+    background-size: 200px 200px;
+    background-position: center;
+  }
+  
+  .anime-color {
+    color: #ff69b4; /* pink accent color */
+  }
+  
+  .anime-button {
+    background-color: #ff69b4; /* pink button color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .anime-button:hover {
+    background-color: #ff99cc; /* hover effect */
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333; /* dark gray footer */
+    padding: 10px;
+    text-align: center;
+    color: #fff; /* white text */
+  }
