@@ -35,7 +35,7 @@ nav li {
 }
 
 nav a {
-    color: #fff; /* white link color */
+    color: #ffffff00; /* white link color */
     font-weight: bold;
 }
 
@@ -68,7 +68,7 @@ main {
     border-radius: 50%;
     overflow: visible;
     display: flex;
-    justify-content: baseline;
+    justify-content: center;
     align-items: center;
 }
 
