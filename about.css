@@ -79,3 +79,11 @@ li strong {
 .contact {
     text-align: center;
 }
+
+section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #282828; /* Dark gray background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
