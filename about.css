@@ -106,7 +106,7 @@ li {
     margin-bottom: 5px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 li strong {
@@ -118,7 +118,7 @@ li strong {
 }
 
 footer {
-    background-color: #333; /* Dark gray footer */
+    background-color: #111; /* Dark gray footer */
     color: #fff; /* White text */
     text-align: center;
     padding: 10px;
