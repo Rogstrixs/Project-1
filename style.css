@@ -11,6 +11,8 @@
   body {
     font-family: 'Open Sans', sans-serif;
     background-image: url('anime2.png');
+    background-position: center;
+    background-size: auto;
     background-color: #f5f5f5; /* light gray background */
   }
   
@@ -19,7 +21,7 @@
     color: #333;
     font-style: italic;
   }
-  
+
   h2, h3 {
     font-weight: bold;
     color: #333; /* dark gray text */
