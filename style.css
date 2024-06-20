@@ -80,35 +80,20 @@ main.container {
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #282828; /* dark gray background */
+    background-color: #ff0000; 
     border-radius: 10px; /* rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
     text-align: left; /* align text to the left */
-}
-  
-.A-section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #07fe17; /* Dark gray background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 section {
     margin-bottom: 20px;
     padding: 20px;
-    background-color: #0125f0; /* Dark gray background */
+    background-color: #0125f0; 
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.M-section {
-    margin-bottom: 20px;
-    padding: 20px;
-    background-color: #d401f0; /* Dark gray background */
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-}
 
 h2 {
     margin-top: 0;
