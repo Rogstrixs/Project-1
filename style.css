@@ -111,6 +111,7 @@ h2 {
 .anime-button,
 .manhua-button {
     position: relative;
+    font-weight: 900;
     z-index: 1;
     background: var(--purple-900);
     border: 3px solid var(--purple-400);
@@ -179,9 +180,9 @@ h2 {
     color: #000
 }
 
-/*.glow-on-hover:active:after {
+.glow-on-hover:active:after {
     background: transparent;
-}*/
+}
 
 .glow-on-hover:hover:before {
     opacity: 1;
