@@ -10,11 +10,17 @@
   
   body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('anime1.jpg');
+    background-image: url('anime2.png');
     background-color: #f5f5f5; /* light gray background */
   }
   
-  h1, h2, h3 {
+  h1{
+    font-weight: bold;
+    color: #333;
+    font-style: italic;
+  }
+  
+  h2, h3 {
     font-weight: bold;
     color: #333; /* dark gray text */
   }
@@ -80,8 +86,6 @@
   
   .anime-bg {
     background-color: #0099ff; /* add an anime-inspired pattern */
-    background-size: 200px 200px;
-    background-position: center;
   }
   
   .anime-color {
