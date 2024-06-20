@@ -10,23 +10,28 @@
   
   body {
     font-family: 'Open Sans', sans-serif;
-    background-image: url('pic1.jpg');
-    background-position: center;
-    background-size: contain;
-    background-color: #f5f5f5; /* light gray background */
+    background-color: #181818; /* dark background */
+    color: #f5f5f5; /* light gray text */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
   }
   
   h1{
     font-weight: bold;
-    color: #333;
+    color: #f5f5f5; /* light gray text */
     font-style: italic;
     font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
   }
 
   h2, h3 {
     font-weight: bold;
     font-size: 20px;
-    color: #333; /* dark gray text */
+    color: #f5f5f5; /* light gray text */
   }
   
   a {
@@ -44,6 +49,7 @@
     background-color: transparent; /* dark gray header */
     padding: 20px;
     text-align: center;
+    width: 100%;
   }
   
   header h1 {
@@ -56,7 +62,8 @@
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
   }
   
   nav li {
@@ -65,6 +72,7 @@
   
   nav a {
     color: #fff; /* white link color */
+    font-weight: bold;
   }
   
   /* Main Styles */
@@ -73,9 +81,10 @@
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #fff; /* white background */
-    border: 1px solid #ddd; /* light gray border */
+    background-color: #282828; /* dark gray background */
+    border-radius: 10px; /* rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
+    text-align: left; /* align text to the left */
   }
   
   section {
@@ -103,6 +112,12 @@
     font-size: 16px;
     cursor: pointer;
     color: #000000;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .anime-button:hover {
@@ -119,6 +134,12 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .manhua-button:hover {
@@ -132,4 +153,7 @@
     padding: 10px;
     text-align: center;
     color: #fff; /* white text */
+    width: 100%;
+    position: fixed;
+    bottom: 0;
   }
