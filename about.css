@@ -21,6 +21,15 @@ header {
     width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #00698f; /* blue link color */
+}
+  
+a:hover {
+    color: #0099ff; /* hover effect */
+}
+
 nav ul {
     list-style: none;
     margin: 0;
