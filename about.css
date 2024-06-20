@@ -23,11 +23,11 @@ header {
 
 a {
     text-decoration: none;
-    color: #00698f; /* blue link color */
+    color: #8f0000; /* blue link color */
 }
   
 a:hover {
-    color: #0099ff; /* hover effect */
+    color: #ff0000; /* hover effect */
 }
 
 nav ul {
