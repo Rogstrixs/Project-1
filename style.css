@@ -79,7 +79,7 @@
   /* Anime-themed Styles */
   
   .anime-bg {
-    background-image: url(''); /* add an anime-inspired pattern */
+    background-color: #0099ff; /* add an anime-inspired pattern */
     background-size: 200px 200px;
     background-position: center;
   }
