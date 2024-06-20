@@ -15,7 +15,7 @@ body {
 }
 
 header {
-    background-color: #111;
+    background-color: #0b0b0b;
     padding: 20px;
     text-align: center;
     width: 100%;
@@ -54,7 +54,7 @@ main {
 }
 
 .container {
-    background-color: #111;
+    background-color: #0c0c0c;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -118,7 +118,7 @@ li strong {
 }
 
 footer {
-    background-color: #111; /* Dark gray footer */
+    background-color: #000000; 
     color: #fff; /* White text */
     text-align: center;
     padding: 10px;
