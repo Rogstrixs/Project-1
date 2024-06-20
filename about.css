@@ -68,7 +68,7 @@ main {
     border-radius: 50%;
     overflow: visible;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
 }
 
