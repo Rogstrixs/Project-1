@@ -30,6 +30,10 @@ header h1 {
     color: #fff; /* white text */
     font-size: 24px;
 }
+
+h2 {
+    color: #fff; /* white text */
+}
   
 nav ul {
     list-style: none;
