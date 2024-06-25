@@ -88,9 +88,9 @@ main {
 
 .profile-picture {
     display: inline-block;
-    border-radius:50% 50% 50% 50%;  
-    width:45px;
-    height: 45px;;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
   
     background-repeat: no-repeat;
     background-position: center center;
