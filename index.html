@@ -1,84 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Anime and Manhua</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anime & Manhua Blog</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Anime and Manhua World!</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Me</a></li>
-                <li><a href="More.html">More</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class="container anime-bg">
-        <section id="Anime-section">
-            <h2>What is Anime?</h2>
-            <p>Anime is a broad term referring to animation originating in Japan, spanning a vast array of genres, styles, and themes. 
-            It is a vibrant and influential art form that has captivated audiences worldwide, becoming a global phenomenon.</p>
-        </section>
-        <section id="origin-section">
-            <h2>Origin and Evolution:</h2>
-            <p>Anime finds its roots in early 20th-century Japan, influenced by traditional Japanese art forms and Western animation techniques. Osamu Tezuka, often regarded as the "God of Manga," played a significant role in shaping modern anime with works like "Astro Boy" in the 1960s. Since then, anime has evolved dramatically in terms of animation quality, storytelling complexity, and thematic depth.</p>
-        </section>
-        <section id="genres-section">
-            <h2>Genres and Themes:</h2>
-            <p>One of anime's strengths lies in its vast array of genres. From action-packed shonen (targeted at young males) series like "Naruto" and "Dragon Ball" to emotionally profound dramas such as "Your Lie in April" and "Clannad," there's anime for every taste. Other popular genres include fantasy, romance, science fiction, horror, and slice of life, among others.</p>
-        </section>
-        <section id="anime-popularity-section">
-            <h2>Popularity and Global Influence:</h2>
-            <p>Anime's popularity has surged globally, thanks to streaming platforms and dedicated fan communities. Shows like "Attack on Titan," "My Hero Academia," and "Demon Slayer" have gained massive followings worldwide. The intricate plots, complex characters, and stunning visuals appeal not only to younger audiences but also to adults seeking sophisticated storytelling.</p>
-        </section>
-        <section id="influencers-section">
-            <h2>Influence on Influencers and Sport Stars:</h2>
-            <p>Anime's influence extends beyond entertainment into various cultural spheres. Influencers and sports stars often express their admiration for anime characters and themes. Many cite anime's strong character development, perseverance narratives, and sense of justice as sources of inspiration. For instance, athletes may draw parallels between anime protagonists overcoming adversity and their own challenges in sports.</p>
-        </section>
-        <a href="https://en.wikipedia.org/wiki/Anime" target="_blank">
-            <button class="anime-button glow-on-hover">Learn More</button>
-        </a>
-    </main>
-    <main class="container Manhua-bg">
-        <section id="Manhua-section">
-            <h2>What is Manhua?</h2>
-            <p>Manhua refers to comics and graphic novels originating from China, distinguished by their unique artistic styles and narrative traditions. 
-            Manhua has garnered international acclaim, captivating readers with its wide array of genres and engaging storytelling.</p>
-        </section>        
-        <section id="Origin-section">
-            <h2>Origin and Characteristics:</h2>
-            <p>Manhua has a long history dating back to the early 20th century, influenced by Chinese traditional art forms such as brush painting and calligraphy. It began to flourish in the early 20th century, influenced by Western comic styles and later incorporating elements from Japanese manga.</p>
-        </section>
-        <section id="Comparison-section">
-            <h2>Comparison to Manga and Manhwa:</h2>
-            <p>While manhua shares similarities with manga and manhwa in terms of its sequential art format and storytelling, it distinguishes itself through several unique aspects:</p>
-        </section>
-        <section id="Art-section">
-            <h3>Art Style:</h3>
-            <p>Manhua often exhibits a blend of traditional Chinese art styles with modern comic artistry. It may feature distinctive linework, use of color, and character designs that reflect Chinese cultural aesthetics.</p>
-        </section>
-        <section id="Themes-section">
-            <h3>Themes and Settings:</h3>
-            <p>Manhua explores a wide range of themes that are often rooted in Chinese history, mythology, martial arts, and contemporary social issues. This cultural backdrop sets it apart from manga and manhwa, which typically draw more heavily from Japanese and Korean cultural contexts.</p>
-        </section>
-        <section id="manhua-popularity-section">
-            <h3>Popularity and Influence:</h3>
-            <p>Manhua has gained popularity not only within China but also among global audiences. The availability of translated manhua and digital platforms has facilitated its international reach, attracting readers who appreciate its unique storytelling and artistic style.</p>
-        </section>
-        <section id="Appeal-section">
-            <h3>Unique Appeal:</h3>
-            <p>Readers often find manhua appealing for its fresh perspectives on storytelling and its ability to blend traditional Chinese elements with modern narrative techniques. The exploration of Chinese folklore, philosophical themes, and historical events provides a rich tapestry for storytelling.</p>
-        </section>
-        <a href="https://en.wikipedia.org/wiki/Manhua" target="_blank">
-            <button class="manhua-button glow-on-hover">Learn More</button>
-        </a>
-    </main>
-    <footer>
-        <p>&copy; 2024 Daniels Rupenheits. All rights reserved.</p>
-    </footer>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">More</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="blog-posts">
+      <h1>Latest Posts</h1>
+      <ul id="post-list">
+        <!-- posts will be rendered here -->
+      </ul>
+    </section>
+    <section class="new-post">
+      <h1>New Post</h1>
+      <form id="new-post-form">
+        <input type="text" id="post-title" placeholder="Post Title">
+        <textarea id="post-content" placeholder="Post Content"></textarea>
+        <button id="submit-post">Submit</button>
+      </form>
+    </section>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
