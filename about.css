@@ -95,6 +95,8 @@ main {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+
+    background-image: url(prfl-pic.jpg);
   }
 
 .info {
