@@ -7,6 +7,47 @@
     padding: 20px;
     background: #f1f1f1;
   }
+
+  a {
+    text-decoration: none;
+    color: #00698f; /* blue link color */
+}
+  
+a:hover {
+    color: #0099ff; /* hover effect */
+}
+  
+  /* Header Styles */
+  
+header {
+    background-color: transparent; /* dark gray header */
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+  
+header h1 {
+    color: #fff; /* white text */
+    font-size: 24px;
+}
+  
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+nav li {
+    margin-right: 20px;
+}
+  
+nav a {
+    color: #fff; /* white link color */
+    font-weight: bold;
+}
   
   /* Header/Blog Title */
   .header {
