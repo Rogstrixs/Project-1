@@ -87,14 +87,15 @@ main {
 }
 
 .profile-picture {
-    width: 200px;
-    height: 200px;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    overflow: visible;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
 
 .profile-picture img {
     width: 100%;
