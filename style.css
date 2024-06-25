@@ -54,7 +54,7 @@ nav a {
     padding: 30px;
     font-size: 40px;
     text-align: center;
-    background: white;
+    background: #0125f0;
   }
   
   /* Create two unequal columns that floats next to each other */
@@ -96,7 +96,7 @@ nav a {
   .footer {
     padding: 20px;
     text-align: center;
-    background: #ddd;
+    background: #000000;
     margin-top: 20px;
   }
   
