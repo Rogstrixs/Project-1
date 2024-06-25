@@ -92,11 +92,7 @@ main {
     height: 150px;
     border-radius: 50%;
   
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-
-    background-image: url(prfl-pic.jpg);
+    object-fit: cover;
   }
 
 .info {
