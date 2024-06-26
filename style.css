@@ -31,8 +31,14 @@ header h1 {
     font-size: 24px;
 }
 
-h2 {
+h2, h3 {
     color: #fff; /* white text */
+}
+
+p {
+  color: #fff; /* white text */
+  font-style: italic;
+  font-weight: bold;
 }
   
 nav ul {
