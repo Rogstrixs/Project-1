@@ -194,10 +194,15 @@ nav a {
     display: none;
 }
 
-.anime1 {
+/*.anime1 {
     width: 700px;
-    height: 300px;
-    align-items: center;
+    height: 300px;   
+}*/
+
+.card img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Add this line to ensure the image doesn't exceed the card width */
 }
   
   /* Add a card effect for articles */
