@@ -1,4 +1,4 @@
-document.getElementById("toggleButton").addEventListener("click", function() {
+document.getElementsByClassName("glow-on-hover").addEventListener("click", function() {
   var moreText = document.getElementById("moreText");
   if (moreText.style.display === "none" || moreText.style.display === "") {
     moreText.style.display = "block";
