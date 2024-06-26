@@ -39,6 +39,7 @@ p {
   color: #fff; /* white text */
   font-style: italic;
   font-weight: bold;
+  text-align: center;
 }
   
 nav ul {
