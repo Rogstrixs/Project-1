@@ -197,6 +197,7 @@ nav a {
 .anime1 {
     width: 700px;
     height: 300px;
+    align-items: center;
 }
   
   /* Add a card effect for articles */
