@@ -83,6 +83,11 @@ nav a {
     width: 100%;
     padding: 20px;
   }
+
+  .anime1 {
+    width: 150;
+    height: 150;
+  }
   
   /* Add a card effect for articles */
   .card {
