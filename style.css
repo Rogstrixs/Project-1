@@ -93,6 +93,8 @@ nav a {
 }
 
 .more-button {
+  display: block;
+  margin: 0 auto;
   position: relative;
   font-weight: 900;
   z-index: 1;
@@ -103,6 +105,7 @@ nav a {
   padding: 0.75rem 1rem;
   text-decoration: none;
   transition: color 250ms ease-in-out, background-color 250ms ease-in-out, transform 250ms ease-in-out;
+  clear: both;
 }
 
 .more-button:hover {
@@ -201,6 +204,7 @@ nav a {
     padding: 20px;
     margin-top: 20px;
     border-radius: 45px;
+    width: 60%;
 }
   
   /* Clear floats after the columns */
