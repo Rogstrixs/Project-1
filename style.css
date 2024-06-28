@@ -93,6 +93,10 @@ nav a {
     padding: 20px;
 }
 
+.anime10 {
+  border-image-source: 'anime1.jpg';
+}
+
 .more-button {
   display: block;
   margin: 0 auto;
