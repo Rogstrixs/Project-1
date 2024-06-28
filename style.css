@@ -199,6 +199,14 @@ nav a {
     height: 300px;   
 }*/
 
+.popular-post img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%; /* Add this line to ensure the image doesn't exceed the card width */
+  max-height: 70%;
+  border-radius: 10%;
+}
+
 .card img {
   display: block;
   margin: 0 auto;
