@@ -86,11 +86,10 @@ main {
     text-align: left; /* align text to the left */
 }
 .card img {
-    display: inline-block;
+    display: flex;
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    align-items: center;
   
     object-fit: cover;
 }
