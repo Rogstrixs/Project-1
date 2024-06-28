@@ -90,6 +90,7 @@ main {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    align-items: center;
   
     object-fit: cover;
 }
