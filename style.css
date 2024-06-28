@@ -10,33 +10,33 @@ body {
 
 a {
     text-decoration: none;
-    color: #00698f; /* blue link color */
+    color: #00698f; 
 }
   
 a:hover {
-    color: #0099ff; /* hover effect */
+    color: #0099ff; 
 }
   
   /* Header Styles */
   
 header {
-    background-color: transparent; /* dark gray header */
+    background-color: transparent; 
     padding: 20px;
     text-align: center;
     width: 100%;
 }
   
 header h1 {
-    color: #fff; /* white text */
+    color: #fff; 
     font-size: 24px;
 }
 
 h2, h3 {
-    color: #fff; /* white text */
+    color: #fff;
 }
 
 p {
-  color: #fff; /* white text */
+  color: #fff; 
   font-style: italic;
   font-weight: bold;
   text-align: center;
@@ -56,7 +56,7 @@ nav li {
 }
   
 nav a {
-    color: #fff; /* white link color */
+    color: #fff; 
     font-weight: bold;
 }
   
@@ -84,13 +84,6 @@ nav a {
     width: 25%;
     padding-left: 20px;
     border-radius: 45px;
-}
-  
-  /* Fake image */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
 }
 
 .more-button {
@@ -194,11 +187,6 @@ nav a {
     display: none;
 }
 
-/*.anime1 {
-    width: 700px;
-    height: 300px;   
-}*/
-
 .popular-post {
   background: #0125f0;
   padding: 20px;
@@ -218,12 +206,11 @@ nav a {
 .card img {
   display: block;
   margin: 0 auto;
-  max-width: 100%; /* Add this line to ensure the image doesn't exceed the card width */
+  max-width: 100%; 
   max-height: 70%;
   border-radius: 10%;
 }
   
-  /* Add a card effect for articles */
 .card {
     background: #0125f0;
     padding: 20px;
@@ -232,7 +219,6 @@ nav a {
     width: 100%;
 }
   
-  /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
@@ -247,10 +233,9 @@ nav a {
     margin-top: 20px;
 }
   
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
-      width: 100%;
-      padding: 0;
-    }
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 }

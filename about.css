@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: #000000; /* dark background */
-    color: #f5f5f5; /* light gray text */
+    background-color: #000000;
+    color: #f5f5f5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,11 +24,11 @@ header {
 
 a {
     text-decoration: none;
-    color: #00698f; /* blue link color */
+    color: #00698f;
 }
   
 a:hover {
-    color: #0099ff; /* hover effect */
+    color: #0099ff;
 }
 
 nav ul {
@@ -45,13 +45,13 @@ nav li {
 }
 
 nav a {
-    color: #ffffff; /* Black link color */
+    color: #ffffff; 
     font-weight: bold;
 }
 
 h1{
     font-weight: bold;
-    color: #f5f5f5; /* light gray text */
+    color: #f5f5f5; 
     font-style: italic;
     font-size: 36px;
     text-align: center;
@@ -65,7 +65,7 @@ h2, h3 {
     position: relative;
     padding: 15px;
     font-size: 20px;
-    color: #f5f5f5; /* light gray text */
+    color: #f5f5f5; 
 }
 
 main {
@@ -81,13 +81,13 @@ main {
     margin: 40px auto;
     padding: 20px;
     background-color: #06047e; 
-    border-radius: 10px; /* rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* subtle shadow */
-    text-align: left; /* align text to the left */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: left;
 }
 .card img {
-    display: block; /* instead of flex */
-    margin: 0 auto; /* add this to center horizontally */
+    display: block; 
+    margin: 0 auto; 
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -103,8 +103,8 @@ section {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #0125f0; 
-    border-radius: 10px; /* Rounded corners */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .section {
@@ -139,7 +139,7 @@ li strong {
 
 footer {
     background-color: #000000; 
-    color: #fff; /* White text */
+    color: #fff;
     text-align: center;
     padding: 10px;
     width: 100%;
