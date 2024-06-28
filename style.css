@@ -199,11 +199,19 @@ nav a {
     height: 300px;   
 }*/
 
+.popular-post {
+  background: #0125f0;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 45px;
+  width: 100%;
+}
+
 .popular-post img {
   display: block;
   margin: 0 auto;
-  max-width: 100%; /* Add this line to ensure the image doesn't exceed the card width */
-  max-height: 70%;
+  width: 150px;
+  height: 80px;
   border-radius: 10%;
 }
 
