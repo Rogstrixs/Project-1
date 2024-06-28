@@ -130,9 +130,9 @@ nav a {
   opacity: 0.6;
 }
 
-.glow-on-hover, .glow-on-hover2 {
+#glow-on-hover {
     width: 220px;
-    height: 5px;
+    height: 50px;
     border: none;
     outline: none;
     color: #fff;
@@ -143,7 +143,7 @@ nav a {
     border-radius: 10px;
 }
 
-.glow-on-hover:before, .glow-on-hover2:before {
+#glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -156,23 +156,23 @@ nav a {
     height: calc(100% + 4px);
     animation: glowing 20s linear infinite;
     opacity: 0;
-    transition: opacity.3s ease-in-out;
+    transition: opacity .3s ease-in-out;
     border-radius: 10px;
 }
 
-.glow-on-hover:active, .glow-on-hover2:active {
+#glow-on-hover:active {
     color: #000
 }
 
-.glow-on-hover:active:after, .glow-on-hover2:active:after {
+#glow-on-hover:active:after {
     background: transparent;
 }
 
-.glow-on-hover:hover:before, .glow-on-hover2:hover:before {
+#glow-on-hover:hover:before {
     opacity: 1;
 }
 
-.glow-on-hover:after, .glow-on-hover2:after {
+#glow-on-hover:after {
     z-index: -1;
     content: '';
     position: absolute;
