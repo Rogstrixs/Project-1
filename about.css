@@ -86,16 +86,13 @@ main {
     text-align: left; /* align text to the left */
 }
 .card img {
-    border-radius: 50%
-}
-.profile-picture {
     display: inline-block;
     width: 150px;
     height: 150px;
     border-radius: 50%;
   
     object-fit: cover;
-  }
+}
 
 .info {
     flex-grow: 1;
