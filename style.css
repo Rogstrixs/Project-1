@@ -93,7 +93,7 @@ nav a {
     padding: 20px;
 }
 
-.more-button, .more-button2 {
+.more-button {
   display: block;
   margin: 0 auto;
   position: relative;
@@ -109,13 +109,13 @@ nav a {
   clear: both;
 }
 
-.more-button:hover, .more-button2:hover {
+.more-button:hover {
   color: var(--purple-200);
   background-color: var(--purple-800);
   transform: scale(1.1);
 }
 
-.more-button::after, .more-button2::after {
+.more-button::after {
   content: "";
   position: absolute;
   z-index: -1;
@@ -126,11 +126,11 @@ nav a {
   transition: opacity 250ms ease-in-out;
 }
 
-.more-button:hover::after, .more-button2:hover::after {
+.more-button:hover::after {
   opacity: 0.6;
 }
 
-#glow-on-hover {
+.glow-on-hover {
     width: 220px;
     height: 50px;
     border: none;
@@ -143,7 +143,7 @@ nav a {
     border-radius: 10px;
 }
 
-#glow-on-hover:before {
+.glow-on-hover:before {
     content: '';
     background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
     position: absolute;
@@ -160,19 +160,19 @@ nav a {
     border-radius: 10px;
 }
 
-#glow-on-hover:active {
+.glow-on-hover:active {
     color: #000
 }
 
-#glow-on-hover:active:after {
+.glow-on-hover:active:after {
     background: transparent;
 }
 
-#glow-on-hover:hover:before {
+.glow-on-hover:hover:before {
     opacity: 1;
 }
 
-#glow-on-hover:after {
+.glow-on-hover:after {
     z-index: -1;
     content: '';
     position: absolute;
@@ -190,7 +190,7 @@ nav a {
     100% { background-position: 0 0; }
 }
 
-#moreText, #moreText2 {
+#moreText {
     display: none;
 }
 
